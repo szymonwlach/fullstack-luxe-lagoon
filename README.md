@@ -48,11 +48,11 @@ To run the project locally, follow these steps:
 
 npm install
 
-# or
+or
 
 yarn install
 
-# or
+or
 
 pnpm install
 
