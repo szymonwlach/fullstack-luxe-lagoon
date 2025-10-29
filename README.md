@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏝️ Luxe Lagoon
 
-## Getting Started
+**Luxe Lagoon** is a modern, elegant, and fully responsive hotel booking platform built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Clerk**.  
+It allows users to explore, search, book, and review hotels with an intuitive and seamless experience inspired by luxury travel aesthetics.
 
-First, run the development server:
+---
 
-```bash
+## ✨ Features
+
+- 🔍 **Advanced Hotel Search** – filter hotels by location, price range, ratings, and amenities.
+- 🏨 **Add & Manage Listings** – hotel owners can add and manage their properties with detailed descriptions and images.
+- 💬 **User Reviews & Ratings** – guests can leave feedback and rate their stays.
+- 📅 **Online Bookings** – fully functional booking system with real-time availability.
+- 👤 **Secure Authentication** – powered by [Clerk](https://clerk.com/) for safe and smooth login/signup.
+- 💎 **Modern, Minimalist UI** – clean, luxurious design built with [Tailwind CSS](https://tailwindcss.com/).
+- 📱 **Fully Responsive** – optimized for all devices, from mobile to desktop.
+- ⚡ **High Performance** – powered by Next.js 14 with server-side rendering (SSR) and static optimization.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 14](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Authentication:** [Clerk](https://clerk.com/)
+- **Database (optional):** [Drizzle ORM](https://orm.drizzle.team/) + [Supabase](https://supabase.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/luxe-lagoon.git
+   cd luxe-lagoon
+
+    Install dependencies
+   ```
+
+npm install
+
+Set up environment variables
+Create a .env.local file in the root directory and add the following:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+DATABASE_URL=your_database_url
+
+Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit the app
+Open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    to see the project in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧠 Project Goals
 
-## Learn More
+    Build a full-stack web application using modern technologies (Next.js + TypeScript).
 
-To learn more about Next.js, take a look at the following resources:
+    Learn and implement authentication, database integration, and state management in a real-world project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    Create a beautiful, functional, and responsive website ready for portfolio or production use.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🚧 Future Improvements
 
-## Deploy on Vercel
+    🗺️ Map view for hotels with location pins.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    💳 Integration with a payment system (e.g., Stripe).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    🌍 Multi-language support.
+
+    🧾 Admin dashboard for hotel management.
+
+    🧠 AI-powered hotel recommendations.
+
+Luxe Lagoon was created by Szymon Wlach.
+📧 Contact: [szymonwlach.tech@gmail.com
+
+]
+🌐 Portfolio: [szymonwlach.com]
+📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and share it.
