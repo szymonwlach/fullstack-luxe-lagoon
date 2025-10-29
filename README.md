@@ -46,7 +46,17 @@ To run the project locally, follow these steps:
     Install dependencies:
    ```
 
-npm install, or yarn install, or pnpm install
+# Using npm
+
+npm install
+
+# OR using yarn
+
+yarn install
+
+# OR using pnpm
+
+pnpm install
 
 # Run the development server:
 
