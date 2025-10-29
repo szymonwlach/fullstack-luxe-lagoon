@@ -1,88 +1,86 @@
-# 🏝️ Luxe Lagoon
+# 🌊 LuxeLagoon
 
-**Luxe Lagoon** is a modern, elegant, and fully responsive hotel booking platform built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Clerk**.  
-It allows users to explore, search, book, and review hotels with an intuitive and seamless experience inspired by luxury travel aesthetics.
-
----
-
-## ✨ Features
-
-- 🔍 **Advanced Hotel Search** – filter hotels by location, price range, ratings, and amenities.
-- 🏨 **Add & Manage Listings** – hotel owners can add and manage their properties with detailed descriptions and images.
-- 💬 **User Reviews & Ratings** – guests can leave feedback and rate their stays.
-- 📅 **Online Bookings** – fully functional booking system with real-time availability.
-- 👤 **Secure Authentication** – powered by [Clerk](https://clerk.com/) for safe and smooth login/signup.
-- 💎 **Modern, Minimalist UI** – clean, luxurious design built with [Tailwind CSS](https://tailwindcss.com/).
-- 📱 **Fully Responsive** – optimized for all devices, from mobile to desktop.
-- ⚡ **High Performance** – powered by Next.js 14 with server-side rendering (SSR) and static optimization.
+**LuxeLagoon** is a modern web application for browsing and booking luxury hotels.  
+It’s designed with an **intuitive user interface** and a **seamless booking experience** ✨
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Technologies
 
-- **Framework:** [Next.js 14](https://nextjs.org/)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Authentication:** [Clerk](https://clerk.com/)
-- **Database (optional):** [Drizzle ORM](https://orm.drizzle.team/) + [Supabase](https://supabase.com/)
-- **Deployment:** [Vercel](https://vercel.com/)
+The project is built using:
+
+- ⚡ **Next.js (TypeScript)** – a modern framework for building web applications
+- 🎨 **Tailwind CSS** – fast and flexible styling
+- 🧩 **shadcn/ui** and **ui.aceternity** – UI component libraries
+- 🗄️ **Supabase** – database and image storage
+- 🧱 **Drizzle ORM** – lightweight ORM for database management
+- 🔐 **Clerk** – user authentication system
+- 🖋️ **lucide-react** – customizable React icons for UI enhancement
 
 ---
 
-## 🚀 Getting Started
+## 🌍 Features
 
-1. **Clone the repository**
+- 🏨 **Browse hotels** – access luxury offers with pricing, guest capacity, and location details
+- 🗓️ **Hotel booking** – book a hotel after logging in
+- 🍽️ **All-inclusive option** – additional charge based on the number of guests
+- 📅 **Booking calendar** – select stay dates with automatic price calculation
+- 👤 **User panel (Guest Area)** – view booked hotels and update your username
+- 🏗️ **Add new hotels** – upload hotel listings with images
+- ⭐ **Rating system** – users can leave reviews and ratings visible on the homepage and hotel details page
+- 📱 **Responsive design** – optimized for all devices with a smooth user experience
+- 💡 **Lucide React icons** – visually enhance UI with modern icons
+
+---
+
+## ⚙️ Installation & Setup
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/luxe-lagoon.git
-   cd luxe-lagoon
+   git clone https://github.com/szymonwlach/LuxeLagoon.git
+   cd LuxeLagoon
 
-    Install dependencies
+    Install dependencies:
    ```
 
 npm install
 
-Set up environment variables
-Create a .env.local file in the root directory and add the following:
+# or
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-DATABASE_URL=your_database_url
+yarn install
 
-Run the development server
+# or
+
+pnpm install
+
+Run the development server:
 
 npm run dev
 
-Visit the app
-Open http://localhost:3000
+The application will be available at 👉 http://localhost:3000
+🚀 Deployment
 
-    to see the project in your browser.
+The easiest way to deploy the app is with Vercel
 
-🧠 Project Goals
+:
 
-    Build a full-stack web application using modern technologies (Next.js + TypeScript).
+    🔑 Sign in to Vercel
 
-    Learn and implement authentication, database integration, and state management in a real-world project.
+    🔗 Connect your repository
 
-    Create a beautiful, functional, and responsive website ready for portfolio or production use.
+    ▶️ Follow the deployment instructions
 
-🚧 Future Improvements
+👨‍💻 Author
 
-    🗺️ Map view for hotels with location pins.
+LuxeLagoon was built with a passion for modern web technologies and clean UX/UI design.
+If you have any questions or suggestions, feel free to reach out!
 
-    💳 Integration with a payment system (e.g., Stripe).
+GitHub: @szymonwlach
 
-    🌍 Multi-language support.
-
-    🧾 Admin dashboard for hotel management.
-
-    🧠 AI-powered hotel recommendations.
-
-Luxe Lagoon was created by Szymon Wlach.
-📧 Contact: [szymonwlach.tech@gmail.com
-
-]
-🌐 Portfolio: [szymonwlach.com]
+Author: Szymon Wlach
 📜 License
 
-This project is licensed under the MIT License – feel free to use, modify, and share it.
+This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
