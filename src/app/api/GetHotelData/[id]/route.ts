@@ -1,23 +1,21 @@
 import { getHotel } from "@/lib/actions";
 import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(
-  req: NextRequest,
-  context: { params: { id: string } }
-) {
+export async function GET(req: NextRequest, context: any) {
+  const { params } = context;
+  const id = params.id;
+
+  if (!id) {
+    return NextResponse.json({ error: "Missing hotel ID" }, { status: 400 });
+  }
+
+  const hotelId = Number(id);
+
+  if (isNaN(hotelId)) {
+    return NextResponse.json({ error: "Invalid hotel ID" }, { status: 400 });
+  }
+
   try {
-    const { id } = context.params;
-
-    if (!id) {
-      return NextResponse.json({ error: "Missing hotel ID" }, { status: 400 });
-    }
-
-    const hotelId = Number(id);
-
-    if (isNaN(hotelId)) {
-      return NextResponse.json({ error: "Invalid hotel ID" }, { status: 400 });
-    }
-
     const hotel = await getHotel(hotelId);
 
     if (!hotel) {
